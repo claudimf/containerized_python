@@ -31,7 +31,7 @@ docker-compose ps -a
 Para acessar o container da aplicação, execute:
 
 ```sh
-docker-compose run --rm web bash
+docker-compose run --rm app bash
 ```
 
 Para derrubar e subir a instância do docker novamente, execute:
@@ -40,14 +40,10 @@ Para derrubar e subir a instância do docker novamente, execute:
 docker-compose down && docker-compose up
 ```
 
-🚀 :clap: Para visualizar o sistema basta acessar no navegador no endereço: [localhost:8000](localhost:8000)
+🚀 :clap: Para visualizar o sistema basta acessar no navegador no endereço: [localhost:3000](localhost:3000)
 
 # Referências utilizadas
 
 [1° Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1//) 
 
-[2° Containerized Python Development – Part 2](https://www.docker.com/blog/containerized-python-development-part-2/) 
-
-[3° Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/) 
-
-[4° Project sample](https://github.com/aiordache/demos/tree/master/dockercon2020-demo)    
+[2° Project sample](https://github.com/aiordache/demos/tree/master/dockercon2020-demo)    
